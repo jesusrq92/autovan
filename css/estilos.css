@@ -306,23 +306,36 @@
     #fondoServicio{
  	margin-top: -7.5em;
     }
-
-
 }
 
-@media (max-width: 1550px){
+@media (max-width: 1400px){
     #roadLeft{
-        display: none;
+    width:160px; 
+    float:left;
+    margin-top: .5em;
     }
 
     #roadRight{
-        display: none;
+    width:160px; 
+    float:right;
+    margin-top: .5em;
     }
 }
 
 @media (max-width: 1304px){
     #tituloServicio{
     letter-spacing: 13px;
+    }
+    #roadLeft{
+    width:110px; 
+    float:left;
+    margin-top: .5em;
+    }
+
+    #roadRight{
+    width:110px; 
+    float:right;
+    margin-top: .5em;
     }
 }
 
@@ -409,6 +422,16 @@
         margin-left: 0;
     }
 
+}
+
+@media(max-width: 860px){
+     #roadLeft{
+     display: none;
+     }
+
+     #roadRight{
+     display: none;
+     }
 }
 
 @media (max-width: 767px) {
