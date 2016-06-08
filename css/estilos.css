@@ -143,6 +143,14 @@
  	border-bottom: 5px solid #ffc648;
  }
 
+ #fondoHomeMovil{
+    width: 100%;
+    border-top: 2px solid #ffc648;
+    margin-top: -1.5em;
+    border-bottom: 5px solid #ffc648;
+    display: none;
+ }
+
  .rowAncho {
     margin-right: 0px !important;
     margin-left: 0px !important;
@@ -655,6 +663,12 @@
 }
     
 @media (max-width: 767px) {
+    #fondoHomeMovil{
+        display: initial;
+    }
+    #fondoHome{
+        display: none;
+    }
 	#navAutovan {
     float: right;
     padding-right: 1em;
