@@ -52,18 +52,40 @@
     display: none;
 }
 
-#roadLeft{
-    width:190px; 
+#roadLeftIndex{
+    width:220px; 
+    height: 460px;
     float:left;
-    margin-top: .5em;
+    margin-top: 6em;
 }
 
-#roadRight{
-    width:190px; 
+#roadRightIndex{
+    width:220px; 
+    height: 460px;
     float:right;
-    margin-top: .5em;
+    margin-top: -.5em;
 }
 
+#roadLeftServicio{
+    width:220px; 
+    height: 460px;
+    float:left;
+    margin-top: -2em;
+}
+
+#roadRightServicio{
+    width:220px; 
+    height: 460px;
+    float:right;
+    margin-top: -14em;
+}
+
+#roadLeftMexico{
+    width:220px; 
+    height: 460px;
+    float:left;
+    margin-top: 12em;
+}
 
 /*NAV ESTILOS*/
 .outBorder{
@@ -308,34 +330,214 @@
     }
 }
 
-@media (max-width: 1400px){
-    #roadLeft{
-    width:160px; 
+@media(max-width: 1540px){
+    #roadLeftIndex{
+    width:190px; 
+    height: 440px;
     float:left;
-    margin-top: .5em;
+    margin-top: 9em;
     }
 
-    #roadRight{
-    width:160px; 
+    #roadRightIndex{
+    width:190px; 
+    height: 440px;
     float:right;
-    margin-top: .5em;
+    margin-top: -.5em;
+    }
+
+    #roadLeftServicio{
+    width:200px; 
+    height: 400px;
+    float:left;
+    margin-top: -2em;
+    }
+
+    #roadRightServicio{
+    width:200px; 
+    height: 400px;
+    float:right;
+    margin-top: -14em;
+    }
+
+    #roadLeftMexico{
+    width:200px; 
+    height: 400px;
+    float:left;
+    margin-top: 12em;
+    }
+}
+
+@media(max-width: 1490px){
+    #roadLeftServicio{
+    width:160px; 
+    height: 350px;
+    float:left;
+    margin-top: 5em;
+    }
+
+    #roadRightServicio{
+    width:160px; 
+    height: 350px;
+    float:right;
+    margin-top: -14em;
+    }
+
+    #roadLeftMexico{
+    width:160px; 
+    height: 350px;
+    float:left;
+    margin-top: 20em;
+    }
+}
+
+@media(max-width: 1450px){
+    #roadLeftIndex{
+    width:170px; 
+    height: 390px;
+    float:left;
+    margin-top: 11em;
+    }
+
+    #roadRightIndex{
+    width:170px; 
+    height: 390px;
+    float:right;
+    margin-top: -.5em;
+    }
+}
+
+@media(max-width: 1430px){
+    #pista1{
+        height: 490px !important;
+    }
+
+}
+
+@media(max-width: 1400px){
+    #roadLeftIndex{
+    width:140px; 
+    height: 360px;
+    float:left;
+    margin-top: 15em;
+    }
+
+    #roadRightIndex{
+    width:140px; 
+    height: 360px;
+    float:right;
+    margin-top: -.5em;
+    }
+
+    #roadLeftServicio{
+    width:140px; 
+    height: 350px;
+    float:left;
+    margin-top: 6em;
+    }
+
+    #roadRightServicio{
+    width:140px; 
+    height: 350px;
+    float:right;
+    margin-top: -14em;
+    }
+
+    #roadLeftMexico{
+    width:140px; 
+    height: 350px;
+    float:left;
+    margin-top: 20em;
+    }
+}
+
+
+@media(max-width: 1310px){
+    #roadLeftIndex{
+    width:140px; 
+    height: 400px;
+    float:left;
+    margin-top: 11em;
+    }
+
+    #roadRightIndex{
+    width:140px; 
+    height: 400px;
+    float:right;
+    margin-top: -.5em;
+    }
+
+    #roadLeftServicio{
+    width:120px; 
+    height: 350px;
+    float:left;
+    margin-top: 6em;
+    }
+
+    #roadRightServicio{
+    width:120px; 
+    height: 350px;
+    float:right;
+    margin-top: -14em;
+    }
+
+    #roadLeftMexico{
+    width:120px; 
+    height: 350px;
+    float:left;
+    margin-top: 20em;
     }
 }
 
 @media (max-width: 1304px){
     #tituloServicio{
-    letter-spacing: 13px;
-    }
-    #roadLeft{
-    width:110px; 
-    float:left;
-    margin-top: .5em;
+    letter-spacing: 3px;
     }
 
-    #roadRight{
-    width:110px; 
+    #roadLeftIndex{
+    width:100px; 
+    height: 300px;
+    float:left;
+    margin-top: 19em;
+    }
+
+    #roadRightIndex{
+    width:100px; 
+    height: 300px;
     float:right;
-    margin-top: .5em;
+    margin-top: -.5em;
+    }
+
+    #roadLeftServicio{
+    width:110px; 
+    height: 350px;
+    float:left;
+    margin-top: 6em;
+    }
+
+    #roadRightServicio{
+    width:110px; 
+    height: 350px;
+    float:right;
+    margin-top: -14em;
+    }
+
+    #roadLeftMexico{
+    width:110px; 
+    height: 350px;
+    float:left;
+    margin-top: 20em;
+    }
+}
+
+@media(max-width: 1255px){
+    .parrafoObjetivos{
+        font-size: 16px;
+    }
+
+    #pista1{
+        width: 100% !important;
+        height: 100% !important;
+        margin-top: 5em;
     }
 }
 
@@ -361,6 +563,34 @@
 	color: #787878;
 	font-size: 45px;
 	margin-top: .8em;
+    }
+}
+
+@media(max-width: 1155px){
+    .textSolo{
+        display: none;
+    }
+}
+
+@media(max-width: 1070px){
+    #roadLeftIndex{
+    display: none;
+    }
+
+    #roadRightIndex{
+    display: none;
+    }
+
+    #roadLeftServicio{
+    display: none;
+    }
+
+    #roadRightServicio{
+    display: none;
+    }
+
+    #roadLeftMexico{
+    display: none;
     }
 }
 
@@ -423,17 +653,7 @@
     }
 
 }
-
-@media(max-width: 860px){
-     #roadLeft{
-     display: none;
-     }
-
-     #roadRight{
-     display: none;
-     }
-}
-
+    
 @media (max-width: 767px) {
 	#navAutovan {
     float: right;
@@ -478,7 +698,7 @@
 
     #lineaFooter{
 	margin-bottom:-2.5em;
-}
+    }
     #footer{
 	margin-top: 1em;
     }
@@ -501,6 +721,18 @@
 
     #footer{
     padding: 2em 1em 2em 1em;
+    }
+
+    #pista1{
+        margin-top: 1em;
+    }
+
+    .parrafoObjetivos{
+        font-size: 18px;
+    }
+
+    .textSolo{
+        display: initial;
     }
 
     .oculto{
