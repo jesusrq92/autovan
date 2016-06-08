@@ -1,0 +1,616 @@
+@font-face {
+    font-family: FreightSansProlight;
+    src: url(../fontsAutovan/freigsanprobook-webfont.woff);
+}
+
+@font-face {
+    font-family: FreightSansProBolt;
+    src: url(../fontsAutovan/freigsanproboldit-webfont.woff);
+}
+
+@font-face {
+    font-family: FreightSansProMed;
+    src: url(../fontsAutovan/freigsanpromed-webfont.woff);
+}
+
+@font-face {
+    font-family: FreightSansSem;
+    src: url(../fontsAutovan/freigsanprosem-webfont.woff);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: FreightSansProlight;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: #ffc648;
+}
+
+.letraAmarilla{
+    font-size:35px; 
+    margin-left:15px; 
+    color:#ffc648; 
+    /*text-shadow:0px 1px 1px black;*/
+}
+
+.oculto{
+        display: none;
+    }
+
+.apareceTratamientoAguas{
+        display: none;
+    }
+
+.apareceCapacitacion{
+        display: none;
+    }
+
+.logoHeaderMovil{
+    display: none;
+}
+
+#roadLeft{
+    width:190px; 
+    float:left;
+    margin-top: .5em;
+}
+
+#roadRight{
+    width:190px; 
+    float:right;
+    margin-top: .5em;
+}
+
+
+/*NAV ESTILOS*/
+.outBorder{
+	border:0px;
+}
+
+#navAutovan {
+	z-index: 1;
+    background-color: transparent;
+    border-color: transparent; 
+    float: left;
+ }
+
+ .navbar-default .navbar-nav>li>a {  /*letras nav*/
+    color: white !important;
+    transition: .3s;
+}
+
+.navbar-default .navbar-nav>li>a:hover{  /*letras nav hover*/
+    color: #ffc648 !important;
+}
+
+ #navLetras{
+ 	color: red !important;
+ 	font-size: 19px;
+ 	padding-top: 1.5em;
+ }
+
+ .outPaddingContainer{
+ 	padding-left: 0px !important;
+ 	padding-right: 0px !important;
+ }
+
+ .outPaddingColaps{
+ 	padding-left: 0px;
+ 	padding-right: 0px;
+ }
+
+ #logoAutovan{
+ 	padding-right: 1em;
+ 	width: 120px; 
+ }
+
+#logoPrincipal{
+	position: relative;
+	margin-top: -30%;
+	width: 690px;
+	height: 242px;
+}
+ /*HOME ESTILOS*/
+
+ #fondoHome{
+ 	width: 100%;
+ 	margin-top: -10em;
+ 	border-bottom: 5px solid #ffc648;
+ }
+
+ .rowAncho {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.colAncho{
+	padding-right: 0px !important; 
+    padding-left: 0px !important; 
+}
+
+#parrafoIndex{
+	color: #4f4f4f;
+	margin-top: 3em;
+	margin-bottom: 5em;
+	text-align: justify;
+	font-size: 18px;
+}
+
+.actividadesIndex{
+	color: #4f4f4f;
+	font-size: 19px;
+    padding-top: 1em;
+}
+
+.anchoContainer{
+	padding-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+#pista1{
+	width: 100%;
+}
+
+#pista2{
+	width: 100%;
+	margin-top: -1.44em;
+}
+
+.colorGris{
+	background-color: #efefef;
+}
+
+#ajusteValores{
+	margin-top: -6%;
+}
+
+#ajusteObjetivos{
+	margin-top: -3%;
+}
+
+.subtitulos{
+    font-family: FreightSansProMed;
+	color: #787878;
+    margin-bottom: 1em;
+}
+
+.listaValores{
+	color: #4f4f4f;
+	text-align: left;
+	margin-top: 1em;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding: 5px;
+	font-size: 18px;
+}
+
+.parrafoObjetivos{
+	color: #4f4f4f;
+	text-align: justify;
+	margin-top: 2.9em;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 18px;
+    padding-bottom: 1em;
+}
+
+/*SERVICIO ESTILOS*/
+
+#fondoServicio{
+	width: 100%;
+	margin-top: -10em;
+	border-bottom: 5px solid #ffc648;
+}
+
+#tituloServicio{
+    font-family: FreightSansSem;
+	color: #787878;
+	font-size: 55px;
+	margin-top: .8em;
+    letter-spacing: 3px;
+    /*background-color: #ffc648;
+    box-shadow: 0px 2px 10px black;*/
+    padding: 5px;
+}
+
+.margenParrafo{
+	margin-top: 2em;
+}
+
+.parrafoServicio{
+	color: #4f4f4f;
+	font-size: 18px;
+	text-align: justify;
+    margin-right: 4%;
+    margin-left: 4%;
+}
+
+/*MEXICO ESTILOS*/
+.margenParrafoMexico{
+	margin-top: 3em;
+}
+
+
+/*FOOTER ESTILOS*/
+
+#footer{
+	margin-top: 4em;
+	padding: 2em 2em 2em 2em;
+    background-color: #4f4f4f;
+    border-top: 5px solid #ffc648;
+}
+
+.footerNegro{
+    background-color: black;
+    width: 100%;
+}
+
+.letrasFooterNegro{
+    color: white;
+    font-size: 19px;
+    padding-top: .2em;
+}
+
+
+
+#footerLeft{
+    float: left;
+}
+
+#footerCentro{
+    color: white !important;
+    font-size: 17px;
+    text-align: right;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#footerRight{
+    float: right;
+}
+
+#correo{
+    color: white;
+    transition: .3s;
+    text-decoration: none;
+}
+
+#correo:hover{
+    color: #ffc648;
+}
+
+#powered{
+    color: white;
+    font-size: 14px;
+}
+
+
+@media (max-width: 1600px) {
+
+    #navLetras{
+ 	font-size: 16px;
+ 	padding-top: 1.1em;
+    }
+
+    #logoAutovan{
+ 	width: 95px;
+    }
+
+    #fondoHome{
+ 	margin-top: -7.5em;
+    }
+
+    #fondoServicio{
+ 	margin-top: -7.5em;
+    }
+
+
+}
+
+@media (max-width: 1550px){
+    #roadLeft{
+        display: none;
+    }
+
+    #roadRight{
+        display: none;
+    }
+}
+
+@media (max-width: 1304px){
+    #tituloServicio{
+    letter-spacing: 13px;
+    }
+}
+
+@media (max-width: 1200px) {
+	#navLetras{
+ 	font-size: 14px;
+ 	padding-top: 1.1em;
+    }
+
+    #logoAutovan{
+ 	width: 90px;
+    }
+
+    #fondoHome{
+ 	margin-top: -6.9em;
+    }
+
+    #fondoServicio{
+ 	margin-top: -7.5em;
+    }
+
+    #tituloServicio{
+	color: #787878;
+	font-size: 45px;
+	margin-top: .8em;
+    }
+}
+
+@media (max-width: 1024px) {
+	#navLetras{
+ 	font-size: 12px;
+ 	padding-top: 1.1em;
+    }
+
+    #logoAutovan{
+ 	width: 80px;
+    }
+
+    #fondoHome{
+ 	margin-top: -6.3em;
+    }
+
+    #fondoServicio{
+ 	margin-top: -7.3em;
+    }
+}
+
+@media (max-width: 990px) {
+	#navLetras{
+ 	font-size: 13px;
+ 	padding-top: .5em;
+ 	padding-right: 4px;
+    }
+
+    #logoAutovan{
+ 	width: 75px;
+    }
+
+    #fondoHome{
+ 	margin-top: -5.8em;
+    }
+
+    #fondoServicio{
+ 	margin-top: -7.3em;
+    }
+}
+
+@media (max-width: 880px) {
+
+    .footer-distributed{
+        font: bold 14px sans-serif;
+    }
+
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right{
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
+    .footer-distributed .footer-center i{
+        margin-left: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+	#navAutovan {
+    float: right;
+    padding-right: 1em;
+    width: 100%;
+    background-color: #ffc648;
+    }
+    #navLetras{
+ 	text-align: center;
+    }
+    .navbar-default .navbar-nav>li>a {  /*letras nav*/
+    color: #4f4f4f !important;
+    transition: .3s;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    }
+    .navbar-default .navbar-nav>li>a:hover{  /*letras nav hover*/
+    color: white !important;
+    }
+    #logoAutovan{
+    display: none;
+    }
+    #fondoHome{
+ 	margin-top: -1.5em;
+    }
+
+    #parrafoIndex{
+    margin-top: 1em;
+    }
+    #fondoServicio{
+ 	margin-top: -4em;
+    }
+    #tituloServicio{
+    letter-spacing: 0px;
+	font-size: 32px;
+    margin-bottom: -.8em;
+    }
+
+    .margenParrafo{
+        margin-top: .4em;
+    }
+
+    #lineaFooter{
+	margin-bottom:-2.5em;
+}
+    #footer{
+	margin-top: 1em;
+    }
+
+    #footerCentro{
+        display: none;
+    }
+
+    #logoAutovanFooter{
+        width: 75px;
+    }
+
+    #logoPowered{
+        width: 75px;
+    }
+
+    #powered{
+    font-size: 12px;
+    }
+
+    #footer{
+    padding: 2em 1em 2em 1em;
+    }
+
+    .oculto{
+        display: initial;
+    }
+
+    .quitar{
+        display: none;
+
+    }
+
+    .quitarTratamientoAguas{
+        display: none;
+    }
+
+    .apareceTratamientoAguas{
+        display: initial;
+    }
+
+    .quitarCapacitacion{
+        display: none;
+    }
+
+    .apareceCapacitacion{
+        display: initial;
+    }
+
+    .logoHeaderMovil{
+        position: relative;
+        display: initial;
+        width: 50px;
+        margin-left: 1em;
+    }
+
+    .altoOperacion{
+    	margin-top: -4em;
+    }
+
+    .actividadesIndex{
+	font-size: 17px;
+    }
+
+    .subtitulos{
+    font-size: 26px;
+	color: #787878;
+    margin-bottom: 1em;
+    }
+
+    .listaValores{
+	color: #4f4f4f;
+	text-align: center;
+	margin-top: .3em;
+	margin-right: 20%;
+	margin-left: 20%;
+	padding: 5px;
+	font-size: 18px;
+	text-decoration: none;
+	list-style:none;
+    }
+
+    #navLetras{
+ 	color: white !important;
+ 	font-size: 17px;
+    }
+
+    .navbar-default .navbar-toggle {
+    border-color: transparent;
+    }
+
+    .navbar-toggle {
+    background-color: transparent;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+    }
+
+    .navbar-default .navbar-toggle .icon-bar:hover{
+    background-color: white;
+    }
+
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent; 
+    }
+
+    .navbar-default .navbar-nav>li>a {
+    color: #777;
+    }
+
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    }
+    .navbar-nav>li>a {
+    padding-top: 13px;
+    padding-bottom: 10px;
+    line-height: 10px;
+    border-top: 1.5px solid white;
+    }
+
+    .footer-distributed .footer-company-about{
+    margin-left: 0%;   
+    }
+
+    #alturaPowered{
+    margin-top: 0;
+    }
+
+
+}
+
+@media (max-width: 600px) {
+
+
+
+}
+
+@media (max-width: 480px) {
+
+
+
+}
+
+@media (max-width: 320px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+
