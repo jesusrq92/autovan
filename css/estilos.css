@@ -284,7 +284,23 @@
     padding-top: .2em;
 }
 
+#botonFooter{
+    padding: 4px 20px 4px 20px;
+    background-color: #ffc648;
+    border: 1px solid transparent;
+    border-radius: 0;
+    color: #4f4f4f;
+    font-size: 18px;
+    transition: .4s;
+    margin-right: 200px;
+    text-align: right;
+}
 
+#botonFooter:hover{
+    background-color: transparent;
+    border: 1px solid #ffc648;
+    color: #ffc648;
+}
 
 #footerLeft{
     float: left;
