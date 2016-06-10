@@ -263,6 +263,53 @@
 	margin-top: 3em;
 }
 
+/*CONTACTO ESTILOS*/
+
+.sel {
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    border-top: 1px solid #4f4f4f;
+    border-right: 1px solid #4f4f4f;
+    border-bottom: 1px solid #4f4f4f;
+    border-left: 15px solid #4f4f4f;
+    border-radius: 0;
+    color: black;
+    margin-top: 24px;
+    transition: .7s;
+    width: 70%;   
+    padding: 20px;
+    margin-top: 1em;
+    font-size: 16px;
+}
+
+.sel:focus{
+    border-top: 1px solid #ffc648;
+    border-right: 1px solid #ffc648;
+    border-bottom: 1px solid #ffc648;
+    border-left: 15px solid #ffc648;    
+    font-size: 18px;
+}
+
+#botonContacto{
+    margin-top: 2em;
+    background-color: #ffc648;
+    color: white;
+    font-size: 18px;
+    border: 2px solid transparent;
+    padding: 10px 35px 10px 35px;
+    transition: .5s;
+}
+
+#botonContacto:hover{
+    background-color: transparent;
+    border: 2px solid #ffc648;
+    color: #ffc648;
+}
+
+textarea{
+    resize: none;
+}
 
 /*FOOTER ESTILOS*/
 
