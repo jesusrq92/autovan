@@ -1,7 +1,7 @@
   
   /* TEAM */
 
-  Web Developer: Jesús Ricaño 
+  Web Developer: Jesus Ricano 
   Technology: Frontend
   Email: racing_rica@hotmail.com
   From: Mexico City
@@ -11,7 +11,7 @@
   Email: erikgrl@hotmail.com
   From: Mexico City
 
-  Web Designer: César Quej
+  Web Designer: Cesar Quej
   Email: cesarali.design@gmail.com
   From: Mexico City
 
