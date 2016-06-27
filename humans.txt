@@ -1,0 +1,32 @@
+  
+  /* TEAM */
+
+  Web Developer: Jesus Ricano 
+  Technology: Frontend
+  Email: racing_rica@hotmail.com
+  From: Mexico City
+
+  Web Developer: Erik Rodriguez
+  Technology: Backend
+  Email: erikgrl@hotmail.com
+  From: Mexico City
+
+  Web Designer: Cesar Quej
+  Email: cesarali.design@gmail.com
+  From: Mexico City
+
+
+  /* THANKS */
+
+  Concept-Haus ]CREATIVE AGENCY[
+  Email: contacto@concepthaus.mx
+  From: Mexico City
+
+
+  /* SITE */
+
+  Language: Spanish
+  Doctype: HTML5
+  Components-Frontend: Html5, Css3, Java-Script, jQuery, Bootstrap y Emmet
+  Components-Backend: Php, MySQL
+  IDE: Sublime Text, Brackets, FileZilla, Squel Pro, Photoshop
