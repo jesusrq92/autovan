@@ -18,18 +18,18 @@
     <div class="row">
       <div class="col-sm-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 colAncho">
       <center>
-          <form action="contactoBackend" method="POST">
+          <form id="AvanForm" action="contactoBackend" method="POST">
            <div class="form-group">
-             <input type="text" class="form-control sel" id="exampleInputEmail1" placeholder="Nombre" required>
+             <input name="usuario" type="text" class="form-control sel" id="exampleInputEmail1" placeholder="Nombre">
            </div>
            <div class="form-group">
-             <input type="tel" class="form-control sel" id="exampleInputPassword1" placeholder="Teléfono" required>
+             <input name="telefono" type="tel" class="form-control sel" id="exampleInputPassword1" placeholder="Teléfono">
            </div>
            <div class="form-group">
-             <input type="email" class="form-control sel" id="exampleInputPassword1" placeholder="Email" required>
+             <input name="email"  class="form-control sel" id="exampleInputPassword1" placeholder="Email">
            </div>
            <div class="form-group">
-             <textarea class="form-control sel" rows="8" placeholder="Mensaje" required></textarea>
+             <textarea name="mensaje" class="form-control sel" rows="8" placeholder="Mensaje" ></textarea>
            </div>
           <button id="botonContacto" type="submit" class="btn btn-default">Enviar</button>
         </form>
@@ -43,3 +43,43 @@
     </div>
   </div>
 </section>
+<div id="DivForm"></div>
+
+  
+
+
+<script>
+jQuery(function(){
+
+  var  form = jQuery('#AvanForm');
+  form.submit(function(e)
+  {
+   e.preventDefault();
+   dataString = form.serialize();
+   jQuery.ajax({
+    type:'POST',
+    url:'servidor/BackForm.php',
+    data: dataString,
+    beforeSend: function(){
+      swal({title: "Espera un momento . . .",
+            text:"Estamos verificando tus datos",
+            showConfirmButton:false});
+
+
+
+      },
+      success:function(data){
+        jQuery("#DivForm").replaceWith(data);
+      },
+      complete:function(){
+
+    }
+   });
+   return false;
+
+
+
+    });
+
+  });
+</script>
