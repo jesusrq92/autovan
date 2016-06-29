@@ -273,6 +273,14 @@
     font-size: 18px;
 }
 
+.verdeBack{
+    background-image: url(../images/autopistaVerde.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 2em;
+    height: 70vh;
+}
+
 /*CONTACTO ESTILOS*/
 
 .sel {
@@ -971,6 +979,13 @@ textarea{
     margin-top: 0;
     }
 
+    .verdeBack{
+    background-image: url(../images/autopistaVerde.jpg);
+    background-size: cover;
+    background-position: center center;
+    margin-top: 2em;
+    height: 30vh;
+    }
 
 }
 
