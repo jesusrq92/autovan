@@ -29,12 +29,21 @@
     background-color: #ffc648;
 }
 
-.letraAmarilla{
-    font-size:35px; 
+
+p#parrafoIndex::first-letter 
+{ 
+    font-size:25px;
     margin-left:15px; 
     color:#ffc648; 
-    /*text-shadow:0px 1px 1px black;*/
-}
+ } 
+
+p#parrafoIndex::first-line
+ { 
+    margin-bottom:30px;
+  }
+
+
+
 
 .oculto{
         display: none;
@@ -740,7 +749,8 @@ textarea{
  	padding-right: 4px;
     }
 
-    #logoAutovan{
+    #logoAutovan
+    {
  	width: 75px;
     }
 
@@ -772,6 +782,26 @@ textarea{
         margin-left: 0;
     }
 
+}
+
+
+@media (max-width: 620px) {
+
+    #spa
+    {
+
+        margin-left:5%;
+        text-align: start;
+
+    }
+    
+    p.bleed::first-line
+    {
+        text-align: start;
+       
+    }
+
+          
 }
     
 @media (max-width: 767px) {
