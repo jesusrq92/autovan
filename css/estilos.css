@@ -286,9 +286,14 @@ p#parrafoIndex::first-line
     background-image: url(../images/autopistaVerde.jpg);
     background-size: cover;
     background-position: center center;
-    margin-top: 2em;
-    height: 70vh;
+    margin-top: 0em;
+    height: 94vh;
+    width: 100%;
 }
+.pad{
+    margin-top:-50px;
+}
+
 
 /*CONTACTO ESTILOS*/
 
@@ -1010,7 +1015,7 @@ textarea{
     }
 
     .verdeBack{
-    background-image: url(../images/autopistaVerde.jpg);
+   
     background-size: cover;
     background-position: center center;
     margin-top: 2em;
@@ -1019,6 +1024,12 @@ textarea{
 
 }
 
+
+/*li.quit{
+    list-style-type: none;
+    margin-left:0 auto;
+}
+*/
 @media (max-width: 600px) {
 
 
@@ -1031,11 +1042,87 @@ textarea{
 
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1100px) {
+
+
+    .verdeBack{
+
+    margin-top: 3em;
+    height: 78vh;
+    width: 100%;
+    }
 
 
 }
 
+@media (max-width: 1099px) {
+
+
+    .verdeBack{
+
+    margin-top: 6em;
+    height: 68vh;
+    width: 100%;
+    }
+
+
+}
+
+
+@media (max-width: 1000px) {
+
+
+    .verdeBack{
+
+    margin-top: 10em;
+    height: 68vh;
+    width: 100%;
+    }
+
+
+}
+
+
+@media (max-width: 900px) {
+
+
+    .verdeBack{
+
+    margin-top: 9em;
+    height: 68vh;
+    width: 100%;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+
+
+    .verdeBack{
+
+    margin-top: 1em;
+    height: 50vh;
+    width: 100%;
+    }
+
+
+}
+
+
+
+
+
+/*@media (min-width: 1156px) {
+.acoplamiento
+{
+
+margin-bottom:10px;
+border:3px solid black;
+}
+
+}
+*/
 
 
 
