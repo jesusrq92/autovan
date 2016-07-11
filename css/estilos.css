@@ -236,6 +236,17 @@ p#parrafoIndex::first-line
     padding-bottom: 1em;
 }
 
+.parrafoObjetivosDos{
+    color: #4f4f4f;
+    text-align: justify;
+    margin-top: 2.9em;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    padding-bottom: 1em;
+    line-height: 2;
+}
+
 /*SERVICIO ESTILOS*/
 
 #fondoServicio{
